@@ -38,7 +38,7 @@ public class Main {
             int temp = 0;
             do {
                 temp = random.nextInt(9999999);
-            }while (temp % 7 !=0);
+            }while (temp % 7 !=0);//todo: fix this
             String temp1 =new String();
             temp1 = temp1 + temp;
             if (temp1.length()==7){
